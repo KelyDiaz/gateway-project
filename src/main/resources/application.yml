@@ -8,3 +8,11 @@ spring:
           uri: https://jsonplaceholder.typicode.com
           predicates:
             - Path=/todos/**
+        - id: reqres
+          uri: https://reqres.in
+          predicates:
+            - Path=/api/**
+        - id: httpbin
+          uri: https://httpbin.org
+          predicates:
+            - Path=/get/**
